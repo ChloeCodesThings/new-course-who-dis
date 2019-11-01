@@ -1,9 +1,18 @@
-title: New course 5
-tagline: A brand new course on Learning Lab
-description: test
+title: What Makes a Good Presenter?
+tagline: Identifying traits to up your public speaking game
+description: >-
+  This course isn't just for folks who want to grace the TED stage. The skills
+  you learn in this course can be translated to meeting presentations, job
+  interviews, social situations, and even giving a toast at your little cousin's
+  wedding. 
 template:
-  repo: new-course-5-template
-  name: new-course-5
+  repo: What Makes a Good Presenter?
+  name: what-makes-a-good-presenter-msft
+  description: >-
+    This course isn't just for folks who want to grace the TED stage. The skills
+    you learn in this course can be translated to meeting presentations, job
+    interviews, social situations, and even giving a toast at your little
+    cousin's wedding. 
 before:
   - type: createIssue
     title: Welcome!
@@ -12,6 +21,9 @@ steps:
   - title: First step
     description: The first step in your course
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/0'
     actions:
       - type: closeIssue
+      - type: createIssue
+        title: Let's do step 1
+        body: example1
